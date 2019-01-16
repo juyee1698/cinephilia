@@ -1,0 +1,110 @@
+* {
+   box-sizing:border-box;
+ }
+ 
+
+ 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+header.h1 {
+   font-size:40px;
+  
+ }
+ 
+
+ .checked {
+    color: orange;
+
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.Text {
+   font-size:25px;
+   text-align:center-left;
+}
+/* xs */
+@media (min-width: 300px) {
+    .Text {
+	  font-size:15px;
+	  text-align:center;
+	  
+	}
+	
+}
+
+/* sm */
+@media (min-width: 600px) {
+    .Text {
+	  font-size:18px;
+	  text-align:center;
+	}
+}
+
+/* md */
+@media (min-width: 768px) {
+    .Text {
+	  font-size:18px;
+	  text-align:left;
+	}
+}
+
+/* lg */
+@media (min-width: 1080px) {
+    .Text {
+	  font-size:25px;
+	  text-align:left;
+	}
+}
+
+.scrollbar {
+ 
+    float: left;
+	width:1500px;
+    overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+}

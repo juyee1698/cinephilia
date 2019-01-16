@@ -1,0 +1,25 @@
+body{
+	background-color: #DEE6E2;
+}
+
+
+textarea {
+	width:100%;
+	height:200px;
+	background-color: #fff;
+	resize:vertical;
+	
+} 
+
+
+button {
+	width:100px;
+	height:50px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+
+}

@@ -1,0 +1,75 @@
+<!-- ongoing discussions section -->
+			.section{
+				display:block;
+			}
+			
+		
+
+			.h2{
+				padding-left:50px;
+			}
+			
+			#disc {
+				font-size: 35px;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+				display: inline-block;
+             }
+			
+
+			.comment-box {
+				background-color:#9fd7bd;
+				border-radius:10px;
+				width:100%;
+				height:300px;
+				padding:20px;
+				margin-bottom:4px;	
+				font-family:Palatino;
+				font-size:25px;
+				
+			}
+			
+		
+			
+			.comment-box:hover{
+				background-color: #639B81;
+				font-family:Palatino;
+				font-size:25px;
+				color:white;
+			}
+			
+			
+			.comment-box img{
+				padding-left:10px;
+				padding-top:10px;
+				float:left;
+				text
+			}
+              
+			  
+			a {
+				color:black;
+				text-align: justify;
+			}
+		
+			a:hover{
+				color: white;
+				font-weight:none;
+			}
+			
+			a:active{
+				color: red;
+			}	
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+			
